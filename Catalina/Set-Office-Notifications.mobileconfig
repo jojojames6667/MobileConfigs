@@ -5,198 +5,39 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>NotificationSettings</key>
-			<array>
-				<dict>
-					<key>AlertType</key>
-					<integer>1</integer>
-					<key>BadgesEnabled</key>
-					<true/>
-					<key>BundleIdentifier</key>
-					<string>com.microsoft.Word</string>
-					<key>CriticalAlertEnabled</key>
-					<false/>
-					<key>GroupingType</key>
-					<integer>0</integer>
-					<key>NotificationsEnabled</key>
-					<true/>
-					<key>ShowInLockScreen</key>
-					<true/>
-					<key>ShowInNotificationCenter</key>
-					<true/>
-					<key>SoundsEnabled</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>1</integer>
-					<key>BadgesEnabled</key>
-					<true/>
-					<key>BundleIdentifier</key>
-					<string>com.microsoft.Excel</string>
-					<key>CriticalAlertEnabled</key>
-					<false/>
-					<key>GroupingType</key>
-					<integer>0</integer>
-					<key>NotificationsEnabled</key>
-					<true/>
-					<key>ShowInLockScreen</key>
-					<true/>
-					<key>ShowInNotificationCenter</key>
-					<true/>
-					<key>SoundsEnabled</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>1</integer>
-					<key>BadgesEnabled</key>
-					<true/>
-					<key>BundleIdentifier</key>
-					<string>com.microsoft.Powerpoint</string>
-					<key>CriticalAlertEnabled</key>
-					<false/>
-					<key>GroupingType</key>
-					<integer>0</integer>
-					<key>NotificationsEnabled</key>
-					<true/>
-					<key>ShowInLockScreen</key>
-					<true/>
-					<key>ShowInNotificationCenter</key>
-					<true/>
-					<key>SoundsEnabled</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>1</integer>
-					<key>BadgesEnabled</key>
-					<true/>
-					<key>BundleIdentifier</key>
-					<string>com.microsoft.Outlook</string>
-					<key>CriticalAlertEnabled</key>
-					<false/>
-					<key>GroupingType</key>
-					<integer>0</integer>
-					<key>NotificationsEnabled</key>
-					<true/>
-					<key>ShowInLockScreen</key>
-					<true/>
-					<key>ShowInNotificationCenter</key>
-					<true/>
-					<key>SoundsEnabled</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>1</integer>
-					<key>BadgesEnabled</key>
-					<true/>
-					<key>BundleIdentifier</key>
-					<string>com.microsoft.onenote.mac</string>
-					<key>CriticalAlertEnabled</key>
-					<false/>
-					<key>GroupingType</key>
-					<integer>0</integer>
-					<key>NotificationsEnabled</key>
-					<true/>
-					<key>ShowInLockScreen</key>
-					<true/>
-					<key>ShowInNotificationCenter</key>
-					<true/>
-					<key>SoundsEnabled</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>1</integer>
-					<key>BadgesEnabled</key>
-					<true/>
-					<key>BundleIdentifier</key>
-					<string>com.microsoft.OneDrive</string>
-					<key>CriticalAlertEnabled</key>
-					<false/>
-					<key>GroupingType</key>
-					<integer>0</integer>
-					<key>NotificationsEnabled</key>
-					<true/>
-					<key>ShowInLockScreen</key>
-					<true/>
-					<key>ShowInNotificationCenter</key>
-					<true/>
-					<key>SoundsEnabled</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>1</integer>
-					<key>BadgesEnabled</key>
-					<true/>
-					<key>BundleIdentifier</key>
-					<string>com.microsoft.OneDrive-mac</string>
-					<key>CriticalAlertEnabled</key>
-					<false/>
-					<key>GroupingType</key>
-					<integer>0</integer>
-					<key>NotificationsEnabled</key>
-					<true/>
-					<key>ShowInLockScreen</key>
-					<true/>
-					<key>ShowInNotificationCenter</key>
-					<true/>
-					<key>SoundsEnabled</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AlertType</key>
-					<integer>2</integer>
-					<key>BadgesEnabled</key>
-					<true/>
-					<key>BundleIdentifier</key>
-					<string>com.microsoft.autoupdate.fba</string>
-					<key>CriticalAlertEnabled</key>
-					<true/>
-					<key>GroupingType</key>
-					<integer>0</integer>
-					<key>NotificationsEnabled</key>
-					<true/>
-					<key>ShowInLockScreen</key>
-					<true/>
-					<key>ShowInNotificationCenter</key>
-					<true/>
-					<key>SoundsEnabled</key>
-					<true/>
-				</dict>
-			</array>
-			<key>PayloadEnabled</key>
-			<true/>
+			<key>PayloadDescription</key>
+			<string>Configures restrictions</string>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>MCXToProfile.67ad2621-b510-4060-b171-7f7cf53517c9.alacarte.customsettings.c00e172d-4cb4-4631-8fd4-c7fa866efc00</string>
+			<string>com.apple.applicationaccess.A1E96E17-A7AE-4B11-B9AC-16514FC3CF10</string>
 			<key>PayloadType</key>
-			<string>com.apple.notificationsettings</string>
+			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>c11e572d-4cb4-4231-8fd5-c7f6776efc00</string>
+			<string>A1E96E17-A7AE-4B11-B9AC-16514FC3CF10</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
+			<key></key>
+			<false/>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Set Office notifications</string>
+	<string>Disables App tracking requests, personalised ads, diagnostic &amp; usage data sending</string>
 	<key>PayloadDisplayName</key>
-	<string>Set Office notifications</string>
+	<string>Privacy2</string>
 	<key>PayloadIdentifier</key>
-	<string>com.microsoft.office.notifications</string>
+	<string>mbp.A35DAABF-EAB9-4525-9F17-9EA2652EE756</string>
 	<key>PayloadOrganization</key>
-	<string></string>
+	<string>dcRUSTy</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
-	<key>PayloadScope</key>
-	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>67be2621-b511-4220-b971-7f7cf56506c9</string>
+	<string>6B21CCB1-F4B9-4915-8065-35DD2163F5AD</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
+	<key>PayloadScope</key>
+	<string>System</string>
 </dict>
 </plist>
