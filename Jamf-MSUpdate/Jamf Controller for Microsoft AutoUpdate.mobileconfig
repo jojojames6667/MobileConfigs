@@ -6,115 +6,152 @@
 	<array>
 		<dict>
 			<key>PayloadDescription</key>
-			<string>Allows Terminal and the Jamf binary to send Apple events to Microsoft AutoUpdate</string>
+			<string>Configures passcode settings.</string>
 			<key>PayloadDisplayName</key>
-			<string>Unsigned Jamf Controller for Microsoft AutoUpdate</string>
+			<string>Passcode</string>
 			<key>PayloadIdentifier</key>
-			<string>99263152-E15C-4FFD-8531-5FE4715DEA99</string>
-			<key>PayloadOrganization</key>
-			<string>com.microsoft.office</string>
+			<string>aca701de.ipt.aol.com.2E23D763-E22E-426C-B6DD-F96917C69727.com.apple.mobiledevice.passwordpolicy.90F4F0F1-3AA1-4D2A-8F7C-CAEB94B77341</string>
 			<key>PayloadType</key>
-			<string>com.apple.TCC.configuration-profile-policy</string>
+			<string>com.apple.mobiledevice.passwordpolicy</string>
 			<key>PayloadUUID</key>
-			<string>CFFA67D2-356D-4967-BC1D-1B0C3DDF04A7</string>
+			<string>F6ACD568-F6D6-44BE-8064-972B8A4FA61F</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>Services</key>
-			<dict>
-				<key>AppleEvents</key>
-				<array>
-					<dict>
-						<key>AEReceiverCodeRequirement</key>
-						<string>identifier "com.microsoft.autoupdate2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
-						<key>AEReceiverIdentifier</key>
-						<string>com.microsoft.autoupdate2</string>
-						<key>AEReceiverIdentifierType</key>
-						<string>bundleID</string>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>identifier "com.jamfsoftware.jamf" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443"</string>
-						<key>Comment</key>
-						<string></string>
-						<key>Identifier</key>
-						<string>/usr/local/jamf/bin/jamf</string>
-						<key>IdentifierType</key>
-						<string>path</string>
-					</dict>
-					<dict>
-						<key>AEReceiverCodeRequirement</key>
-						<string>identifier "com.microsoft.autoupdate2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
-						<key>AEReceiverIdentifier</key>
-						<string>com.microsoft.autoupdate2</string>
-						<key>AEReceiverIdentifierType</key>
-						<string>bundleID</string>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>identifier "com.apple.Terminal" and anchor apple</string>
-						<key>Comment</key>
-						<string></string>
-						<key>Identifier</key>
-						<string>com.apple.Terminal</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-					<dict>
-						<key>AEReceiverCodeRequirement</key>
-						<string>identifier "com.microsoft.autoupdate2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
-						<key>AEReceiverIdentifier</key>
-						<string>com.microsoft.autoupdate2</string>
-						<key>AEReceiverIdentifierType</key>
-						<string>bundleID</string>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>identifier "com.apple.sshd-keygen-wrapper" and anchor apple</string>
-						<key>Comment</key>
-						<string></string>
-						<key>Identifier</key>
-						<string>/usr/libexec/sshd-keygen-wrapper</string>
-						<key>IdentifierType</key>
-						<string>path</string>
-					</dict>
-					<dict>
-						<key>AEReceiverCodeRequirement</key>
-						<string>identifier "com.microsoft.autoupdate2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
-						<key>AEReceiverIdentifier</key>
-						<string>com.microsoft.autoupdate2</string>
-						<key>AEReceiverIdentifierType</key>
-						<string>bundleID</string>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>anchor apple generic and identifier "com.jamf.management.Jamf" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "483DWKW443")</string>
-						<key>Comment</key>
-						<string></string>
-						<key>Identifier</key>
-						<string>com.jamf.management.Jamf</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-
-				</array>
-			</dict>
+			<key>allowSimple</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures restrictions</string>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
+			<key>PayloadIdentifier</key>
+			<string>aca701de.ipt.aol.com.2E23D763-E22E-426C-B6DD-F96917C69727.com.apple.applicationaccess.39A8484A-C95E-4864-A245-4B4DD98C3CFC</string>
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess</string>
+			<key>PayloadUUID</key>
+			<string>39A8484A-C95E-4864-A245-4B4DD98C3CFC</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowAccountModification</key>
+			<false/>
+			<key>allowAddingGameCenterFriends</key>
+			<false/>
+			<key>allowAirDrop</key>
+			<false/>
+			<key>allowAppInstallation</key>
+			<false/>
+			<key>allowAppRemoval</key>
+			<false/>
+			<key>allowAssistant</key>
+			<false/>
+			<key>allowAssistantWhileLocked</key>
+			<true/>
+			<key>allowBookstore</key>
+			<false/>
+			<key>allowBookstoreErotica</key>
+			<true/>
+			<key>allowCamera</key>
+			<true/>
+			<key>allowChat</key>
+			<false/>
+			<key>allowCloudBackup</key>
+			<false/>
+			<key>allowCloudDocumentSync</key>
+			<false/>
+			<key>allowCloudKeychainSync</key>
+			<false/>
+			<key>allowDiagnosticSubmission</key>
+			<false/>
+			<key>allowExplicitContent</key>
+			<true/>
+			<key>allowFindMyFriendsModification</key>
+			<false/>
+			<key>allowFingerprintForUnlock</key>
+			<false/>
+			<key>allowGameCenter</key>
+			<false/>
+			<key>allowGlobalBackgroundFetchWhenRoaming</key>
+			<false/>
+			<key>allowHostPairing</key>
+			<false/>
+			<key>allowInAppPurchases</key>
+			<false/>
+			<key>allowLockScreenControlCenter</key>
+			<false/>
+			<key>allowLockScreenNotificationsView</key>
+			<false/>
+			<key>allowLockScreenTodayView</key>
+			<false/>
+			<key>allowMultiplayerGaming</key>
+			<false/>
+			<key>allowOTAPKIUpdates</key>
+			<false/>
+			<key>allowOpenFromManagedToUnmanaged</key>
+			<false/>
+			<key>allowOpenFromUnmanagedToManaged</key>
+			<false/>
+			<key>allowPassbookWhileLocked</key>
+			<false/>
+			<key>allowPhotoStream</key>
+			<false/>
+			<key>allowSafari</key>
+			<false/>
+			<key>allowScreenShot</key>
+			<true/>
+			<key>allowSharedStream</key>
+			<false/>
+			<key>allowSharedStreamReceiveInvitation</key>
+			<false/>
+			<key>allowSharedStreamSendInvitation</key>
+			<false/>
+			<key>allowUIConfigurationProfileInstallation</key>
+			<false/>
+			<key>allowUntrustedTLSPrompt</key>
+			<false/>
+			<key>allowVideoConferencing</key>
+			<false/>
+			<key>allowVoiceDialing</key>
+			<false/>
+			<key>allowYouTube</key>
+			<false/>
+			<key>allowiTunes</key>
+			<false/>
+			<key>forceAssistantProfanityFilter</key>
+			<false/>
+			<key>forceEncryptedBackup</key>
+			<false/>
+			<key>forceITunesStorePasswordEntry</key>
+			<false/>
+			<key>ratingApps</key>
+			<integer>1000</integer>
+			<key>ratingMovies</key>
+			<integer>1000</integer>
+			<key>ratingRegion</key>
+			<string>us</string>
+			<key>ratingTVShows</key>
+			<integer>1000</integer>
+			<key>safariAllowAutoFill</key>
+			<false/>
+			<key>safariAllowJavaScript</key>
+			<false/>
+			<key>safariAllowPopups</key>
+			<false/>
+			<key>safariForceFraudWarning</key>
+			<false/>
 		</dict>
 	</array>
-	<key>PayloadDescription</key>
-	<string>Allows Terminal and the Jamf binary to send Apple events to Microsoft AutoUpdate</string>
 	<key>PayloadDisplayName</key>
-	<string>Jamf Controller for Microsoft AutoUpdate</string>
+	<string>Restrictions</string>
 	<key>PayloadIdentifier</key>
-	<string>99263152-E15C-4FFD-8531-5FE4715DEA90</string>
-	<key>PayloadOrganization</key>
-	<string>com.microsoft.office</string>
+	<string>aca701de.ipt.aol.com.2E23D763-E22E-426C-B6DD-F96917C69727</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
 	<key>PayloadType</key>
-	<string>com.apple.TCC.configuration-profile-policy</string>
+	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>75E19B66-15A3-405B-9321-0530131BE29D</string>
+	<string>F3F77618-93DF-4191-94E3-787D87865F51</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
-	<key>PayloadScope</key>
-	<string>system</string>
 </dict>
 </plist>
