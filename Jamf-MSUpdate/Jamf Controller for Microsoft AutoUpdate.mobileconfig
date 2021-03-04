@@ -46,7 +46,7 @@
 			<key>allowAssistant</key>
 			<false/>
 			<key>allowAssistantWhileLocked</key>
-			<true/>
+			<false/>
 			<key>allowBookstore</key>
 			<false/>
 			<key>allowBookstoreErotica</key>
@@ -139,6 +139,11 @@
 			<false/>
 			<key>safariForceFraudWarning</key>
 			<false/>
+                        <key>forceAirplayOutgoingRequestsPairingPasswordEnable</key>
+			<true/>
+                        <key>forceAirplayIncomingRequestsPairingPasswordEnable</key>
+			<true/>
+
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
