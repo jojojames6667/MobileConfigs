@@ -140,9 +140,9 @@
 			<key>safariForceFraudWarning</key>
 			<false/>
                         <key>forceAirplayOutgoingRequestsPairingPasswordEnable</key>
-			<true/>
+			<false/>
                         <key>forceAirplayIncomingRequestsPairingPasswordEnable</key>
-			<true/>
+			<false/>
 
 		</dict>
 	</array>
