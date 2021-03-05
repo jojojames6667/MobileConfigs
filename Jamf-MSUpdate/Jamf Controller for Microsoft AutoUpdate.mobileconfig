@@ -6,22 +6,6 @@
 	<array>
 		<dict>
 			<key>PayloadDescription</key>
-			<string>Configures passcode settings.</string>
-			<key>PayloadDisplayName</key>
-			<string>Passcode</string>
-			<key>PayloadIdentifier</key>
-			<string>aca701de.ipt.aol.com.2E23D763-E22E-426C-B6DD-F96917C69727.com.apple.mobiledevice.passwordpolicy.90F4F0F1-3AA1-4D2A-8F7C-CAEB94B77341</string>
-			<key>PayloadType</key>
-			<string>com.apple.mobiledevice.passwordpolicy</string>
-			<key>PayloadUUID</key>
-			<string>F6ACD568-F6D6-44BE-8064-972B8A4FA61F</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>allowSimple</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>PayloadDescription</key>
 			<string>Configures restrictions</string>
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
