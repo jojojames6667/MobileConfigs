@@ -107,6 +107,8 @@
 			<false/>
                         <key>allowESIMModification</key>
 			<false/>
+                        <key>allowRemoteScreenObservation</key>
+			<false/>
 			<key>forceITunesStorePasswordEntry</key>
 			<false/>
 			<key>ratingApps</key>
