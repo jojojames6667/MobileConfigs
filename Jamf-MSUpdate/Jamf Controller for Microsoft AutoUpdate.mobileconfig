@@ -125,12 +125,7 @@
 			<false/>
 			<key>safariForceFraudWarning</key>
 			<false/>
-                        <key>forceAirplayOutgoingRequestsPairingPasswordEnable</key>
-			<false/>
-                        <key>forceAirplayIncomingRequestsPairingPasswordEnable</key>
-			<false/>
-
-		</dict>
+		 </dict>
 	</array>
 	<key>PayloadDisplayName</key>
 	<string>Restrictions</string>
