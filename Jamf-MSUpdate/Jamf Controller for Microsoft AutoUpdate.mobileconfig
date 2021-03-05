@@ -105,6 +105,8 @@
 			<false/>
 			<key>forceEncryptedBackup</key>
 			<false/>
+                        <key>allowESIMModification</key>
+			<false/>
 			<key>forceITunesStorePasswordEntry</key>
 			<false/>
 			<key>ratingApps</key>
