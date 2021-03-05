@@ -127,7 +127,7 @@
 			<false/>
 			<key>safariForceFraudWarning</key>
 			<false/>
-		 </dict>
+	         </dict>
 	</array>
 	<key>PayloadDisplayName</key>
 	<string>Restrictions</string>
