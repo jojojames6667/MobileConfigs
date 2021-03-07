@@ -5,50 +5,126 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>PayloadContent</key>
-			<dict>
-				<key>com.microsoft.autoupdate2</key>
-				<dict>
-					<key>Forced</key>
-					<array>
-						<dict>
-							<key>mcx_preference_settings</key>
-							<dict>
-								<key>AcknowledgedDataCollectionPolicy</key>
-								<string>RequiredDataOnly</string>
-							</dict>
-						</dict>
-					</array>
-				</dict>
-			</dict>
-			<key>PayloadEnabled</key>
-			<true/>
+			<key>PayloadDescription</key>
+			<string>Configures restrictions</string>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>MCXToProfile.67ad2621-b510-4060-b171-7f7cf53506c9.alacarte.customsettings.c00e172d-4cb4-4631-8fd4-c7fa866efc00</string>
+			<string>aca701de.ipt.aol.com.2E23D763-E22E-426C-B6DD-F96917C69727.com.apple.applicationaccess.39A8484A-C95E-4864-A245-4B4DD98C3CFC</string>
 			<key>PayloadType</key>
-			<string>com.apple.ManagedClient.preferences</string>
+			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>c00e572d-4cb4-4231-8fd5-c7f6776efc00</string>
+			<string>39A8484A-C95E-4864-A245-4B4DD98C3CFC</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-		</dict>
+			<key>allowAddingGameCenterFriends</key>
+			<false/>
+			<key>allowAirDrop</key>
+			<false/>
+			<key>allowAppInstallation</key>
+			<false/>
+			<key>allowAppRemoval</key>
+			<false/>
+			<key>allowAssistant</key>
+			<false/>
+			<key>allowAssistantWhileLocked</key>
+			<false/>
+			<key>allowBookstore</key>
+			<false/>
+			<key>allowBookstoreErotica</key>
+			<true/>
+			<key>allowCamera</key>
+			<true/>
+			<key>allowChat</key>
+			<false/>
+			<key>allowCloudBackup</key>
+			<false/>
+			<key>allowCloudDocumentSync</key>
+			<false/>
+			<key>allowCloudKeychainSync</key>
+			<false/>
+			<key>allowDiagnosticSubmission</key>
+			<false/>
+			<key>allowExplicitContent</key>
+			<true/>
+			<key>allowFindMyFriendsModification</key>
+			<false/>
+			<key>allowFingerprintForUnlock</key>
+			<false/>
+			<key>allowGameCenter</key>
+			<false/>
+			<key>allowGlobalBackgroundFetchWhenRoaming</key>
+			<false/>
+			<key>allowInAppPurchases</key>
+			<false/>
+			<key>allowLockScreenControlCenter</key>
+			<false/>
+			<key>allowLockScreenNotificationsView</key>
+			<false/>
+			<key>allowLockScreenTodayView</key>
+			<false/>
+			<key>allowMultiplayerGaming</key>
+			<false/>
+			<key>allowPassbookWhileLocked</key>
+			<false/>
+			<key>allowPhotoStream</key>
+			<false/>
+			<key>allowSafari</key>
+			<false/>
+			<key>allowScreenShot</key>
+			<true/>
+			<key>allowSharedStream</key>
+			<false/>
+			<key>allowSharedStreamReceiveInvitation</key>
+			<false/>
+			<key>allowSharedStreamSendInvitation</key>
+			<false/>
+			<key>allowUntrustedTLSPrompt</key>
+			<false/>
+			<key>allowVideoConferencing</key>
+			<false/>
+			<key>allowVoiceDialing</key>
+			<false/>
+			<key>allowGeotagSharing</key>
+			<false/>
+			<key>allowiTunes</key>
+			<false/>
+			<key>forceAssistantProfanityFilter</key>
+			<false/>
+			<key>forceEncryptedBackup</key>
+			<false/>
+                        <key>allowESIMModification</key>
+			<false/>
+                        <key>allowRemoteScreenObservation</key>
+			<false/>
+			<key>forceITunesStorePasswordEntry</key>
+			<false/>
+			<key>ratingApps</key>
+			<integer>1000</integer>
+			<key>ratingMovies</key>
+			<integer>1000</integer>
+			<key>ratingRegion</key>
+			<string>us</string>
+			<key>ratingTVShows</key>
+			<integer>1000</integer>
+                        <key>safariAllowAutoFill</key>
+			<false/>
+			<key>safariAllowJavaScript</key>
+			<false/>
+			<key>safariAllowPopups</key>
+			<false/>
+	         </dict>
 	</array>
-	<key>PayloadDescription</key>
-	<string>Disable MAU Required Data Dialog</string>
 	<key>PayloadDisplayName</key>
-	<string>Disable MAU Required Data Dialog</string>
+	<string>Restrictions</string>
 	<key>PayloadIdentifier</key>
-	<string>com.microsoft.office.autoupdate.required.data</string>
-	<key>PayloadOrganization</key>
-	<string></string>
+	<string>aca701de.ipt.aol.com.2E23D763-E22E-426C-B6DD-F96917C69727</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
-	<key>PayloadScope</key>
-	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>67bd3621-b511-4220-b971-7f7cf56506c9</string>
+	<string>F3F77618-93DF-4191-94E3-787D87865F51</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
