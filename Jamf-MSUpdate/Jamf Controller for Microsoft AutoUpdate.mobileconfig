@@ -68,7 +68,7 @@
 			<key>allowMultiplayerGaming</key>
 			<false/>
 			<key>allowOTAPKIUpdates</key>
-			<true/>
+			<false/>
 			<key>allowPassbookWhileLocked</key>
 			<false/>
 			<key>allowPhotoStream</key>
