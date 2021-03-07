@@ -17,45 +17,7 @@
 			<string>39A8484A-C95E-4864-A245-4B4DD98C3CFC</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>allowAddingGameCenterFriends</key>
-			<false/>
-			<key>allowAirDrop</key>
-			<false/>
-			<key>allowAppInstallation</key>
-			<false/>
-			<key>allowAppRemoval</key>
-			<false/>
-			<key>allowAssistant</key>
-			<false/>
-			<key>allowAssistantWhileLocked</key>
-			<false/>
-			<key>allowBookstore</key>
-			<false/>
-			<key>allowBookstoreErotica</key>
-			<true/>
-			<key>allowCamera</key>
-			<true/>
-			<key>allowChat</key>
-			<false/>
-			<key>allowCloudBackup</key>
-			<false/>
-			<key>allowCloudDocumentSync</key>
-			<false/>
-			<key>allowCloudKeychainSync</key>
-			<false/>
-			<key>allowDiagnosticSubmission</key>
-			<false/>
-			<key>allowExplicitContent</key>
-			<true/>
-			<key>allowFindMyFriendsModification</key>
-			<false/>
-			<key>allowFingerprintForUnlock</key>
-			<false/>
-			<key>allowGameCenter</key>
-			<false/>
 			<key>allowGlobalBackgroundFetchWhenRoaming</key>
-			<false/>
-			<key>allowHostPairing</key>
 			<false/>
 			<key>allowInAppPurchases</key>
 			<false/>
@@ -116,8 +78,6 @@
 			<key>safariAllowJavaScript</key>
 			<false/>
 			<key>safariAllowPopups</key>
-			<false/>
-			<key>safariForceFraudWarning</key>
 			<false/>
 	         </dict>
 	</array>
