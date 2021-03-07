@@ -119,9 +119,7 @@
 			<string>us</string>
 			<key>ratingTVShows</key>
 			<integer>1000</integer>
-                        <key>safariAcceptCookies</key>
-                        <integer>0</integer>
-			<key>safariAllowAutoFill</key>
+                        <key>safariAllowAutoFill</key>
 			<false/>
 			<key>safariAllowJavaScript</key>
 			<false/>
