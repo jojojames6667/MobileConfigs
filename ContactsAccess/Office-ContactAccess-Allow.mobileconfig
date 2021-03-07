@@ -4,140 +4,76 @@
 <dict>
 	<key>PayloadContent</key>
 	<array>
-		<dict>
+		 <dict>
 			<key>PayloadDescription</key>
-			<string>Allow Office apps to open the System Address Book</string>
+			<string>Configures restrictions</string>
 			<key>PayloadDisplayName</key>
-			<string>Contacts Allow</string>
+			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>E11B1940-B529-4CFF-AB0C-9092185629C2</string>
-			<key>PayloadOrganization</key>
-			<string>com.microsoft.office</string>
+			<string>aca701de.ipt.aol.com.2E23D763-E22E-426C-B6DD-F96917C69727.com.apple.applicationaccess.39A8484A-C95E-4864-A245-4B4DD98C3CFC</string>
 			<key>PayloadType</key>
-			<string>com.apple.TCC.configuration-profile-policy</string>
+			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>22848882-36CC-4596-AF43-CD3F263B1733</string>
+			<string>39A8484A-C95E-4864-A245-4B4DD98C3CFC</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>Services</key>
-			<dict>
-				<key>AddressBook</key>
-				<array>
-					<dict>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9) and identifier "com.microsoft.Excel"</string>
-						<key>Comment</key>
-						<string></string>
-						<key>Identifier</key>
-						<string>com.microsoft.Excel</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-					<dict>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9) and identifier "com.microsoft.onenote.mac"</string>
-						<key>Comment</key>
-						<string></string>
-						<key>Identifier</key>
-						<string>com.microsoft.onenote.mac</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-					<dict>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9) and identifier "com.microsoft.Powerpoint"</string>
-						<key>Comment</key>
-						<string></string>
-						<key>Identifier</key>
-						<string>com.microsoft.Powerpoint</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-					<dict>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9) and identifier "com.microsoft.Word"</string>
-						<key>Comment</key>
-						<string></string>
-						<key>Identifier</key>
-						<string>com.microsoft.Word</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-					<dict>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>identifier "com.microsoft.Word" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
-						<key>Comment</key>
-						<string></string>
-						<key>Identifier</key>
-						<string>com.microsoft.Word</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-					<dict>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>identifier "com.microsoft.Excel" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
-						<key>Comment</key>
-						<string></string>
-						<key>Identifier</key>
-						<string>com.microsoft.Excel</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-					<dict>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>identifier "com.microsoft.Powerpoint" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
-						<key>Comment</key>
-						<string></string>
-						<key>Identifier</key>
-						<string>com.microsoft.Powerpoint</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-					<dict>
-						<key>Allowed</key>
-						<true/>
-						<key>CodeRequirement</key>
-						<string>identifier "com.microsoft.onenote.mac" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
-						<key>Comment</key>
-						<string></string>
-						<key>Identifier</key>
-						<string>com.microsoft.onenote.mac</string>
-						<key>IdentifierType</key>
-						<string>bundleID</string>
-					</dict>
-				</array>
-			</dict>
-		</dict>
+			<key>allowSafari</key>
+			<false/>
+			<key>allowScreenShot</key>
+			<true/>
+			<key>allowSharedStream</key>
+			<false/>
+			<key>allowSharedStreamReceiveInvitation</key>
+			<false/>
+			<key>allowSharedStreamSendInvitation</key>
+			<false/>
+			<key>allowUntrustedTLSPrompt</key>
+			<false/>
+			<key>allowVideoConferencing</key>
+			<false/>
+			<key>allowVoiceDialing</key>
+			<false/>
+			<key>allowGeotagSharing</key>
+			<false/>
+			<key>allowiTunes</key>
+			<false/>
+			<key>forceAssistantProfanityFilter</key>
+			<false/>
+			<key>forceEncryptedBackup</key>
+			<false/>
+                        <key>allowESIMModification</key>
+			<false/>
+                        <key>allowRemoteScreenObservation</key>
+			<false/>
+			<key>forceITunesStorePasswordEntry</key>
+			<false/>
+			<key>ratingApps</key>
+			<integer>1000</integer>
+			<key>ratingMovies</key>
+			<integer>1000</integer>
+			<key>ratingRegion</key>
+			<string>us</string>
+			<key>ratingTVShows</key>
+			<integer>1000</integer>
+                        <key>safariAllowAutoFill</key>
+			<false/>
+			<key>safariAllowJavaScript</key>
+			<false/>
+			<key>safariAllowPopups</key>
+			<false/>
+	         </dict>
 	</array>
-	<key>PayloadDescription</key>
-	<string>Allow Office apps to open the System Address Book</string>
 	<key>PayloadDisplayName</key>
-	<string>Contacts Allow</string>
+	<string>Restrictions</string>
 	<key>PayloadIdentifier</key>
-	<string>E11B1940-B529-4CFF-AB0C-9092185629C2</string>
-	<key>PayloadOrganization</key>
-	<string>com.microsoft.office</string>
+	<string>aca701de.ipt.aol.com.2E23D763-E22E-426C-B6DD-F96917C69727</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
 	<key>PayloadType</key>
-	<string>com.apple.TCC.configuration-profile-policy</string>
+	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>F43ADF5F-0EDB-4729-A62B-9B6FCC158FC8</string>
+	<string>F3F77618-93DF-4191-94E3-787D87865F51</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
-	<key>payloadScope</key>
-	<string>system</string>
 </dict>
 </plist>
