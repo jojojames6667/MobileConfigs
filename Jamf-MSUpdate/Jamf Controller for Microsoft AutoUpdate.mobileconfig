@@ -68,7 +68,7 @@
 			<key>allowMultiplayerGaming</key>
 			<false/>
 			<key>allowOTAPKIUpdates</key>
-			<false/>
+			<true/>
 			<key>allowPassbookWhileLocked</key>
 			<false/>
 			<key>allowPhotoStream</key>
@@ -84,7 +84,7 @@
 			<key>allowSharedStreamSendInvitation</key>
 			<false/>
 			<key>allowUntrustedTLSPrompt</key>
-			<true/>
+			<false/>
 			<key>allowVideoConferencing</key>
 			<false/>
 			<key>allowVoiceDialing</key>
