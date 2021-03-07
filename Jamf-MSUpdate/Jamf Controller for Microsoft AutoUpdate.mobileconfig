@@ -71,10 +71,6 @@
 			<false/>
 			<key>allowOTAPKIUpdates</key>
 			<false/>
-			<key>allowOpenFromManagedToUnmanaged</key>
-			<false/>
-			<key>allowOpenFromUnmanagedToManaged</key>
-			<false/>
 			<key>allowPassbookWhileLocked</key>
 			<false/>
 			<key>allowPhotoStream</key>
@@ -88,8 +84,6 @@
 			<key>allowSharedStreamReceiveInvitation</key>
 			<false/>
 			<key>allowSharedStreamSendInvitation</key>
-			<false/>
-			<key>allowUIConfigurationProfileInstallation</key>
 			<false/>
 			<key>allowUntrustedTLSPrompt</key>
 			<false/>
