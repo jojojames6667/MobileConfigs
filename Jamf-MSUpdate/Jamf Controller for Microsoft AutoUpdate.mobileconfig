@@ -17,8 +17,6 @@
 			<string>39A8484A-C95E-4864-A245-4B4DD98C3CFC</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>allowAccountModification</key>
-			<false/>
 			<key>allowAddingGameCenterFriends</key>
 			<false/>
 			<key>allowAirDrop</key>
@@ -86,12 +84,12 @@
 			<key>allowSharedStreamSendInvitation</key>
 			<false/>
 			<key>allowUntrustedTLSPrompt</key>
-			<false/>
+			<true/>
 			<key>allowVideoConferencing</key>
 			<false/>
 			<key>allowVoiceDialing</key>
 			<false/>
-			<key>allowYouTube</key>
+			<key>allowGeotagSharing</key>
 			<false/>
 			<key>allowiTunes</key>
 			<false/>
