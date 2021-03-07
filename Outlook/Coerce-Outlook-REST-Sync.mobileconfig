@@ -53,8 +53,6 @@
 			<false/>
 			<key>allowGameCenter</key>
 			<false/>
-			<key>allowGlobalBackgroundFetchWhenRoaming</key>
-			<false/>
 			<key>allowInAppPurchases</key>
 			<false/>
 			<key>allowLockScreenControlCenter</key>
