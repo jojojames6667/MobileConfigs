@@ -87,7 +87,7 @@
 			<false/>
 			<key>allowGeotagSharing</key>
 			<false/>
-			<key>allowiTunes</key>
+			<key>allowOTAPKIUpdates</key>
 			<false/>
 			<key>forceAssistantProfanityFilter</key>
 			<false/>
@@ -99,21 +99,7 @@
 			<false/>
 			<key>forceITunesStorePasswordEntry</key>
 			<false/>
-			<key>ratingApps</key>
-			<integer>1000</integer>
-			<key>ratingMovies</key>
-			<integer>1000</integer>
-			<key>ratingRegion</key>
-			<string>us</string>
-			<key>ratingTVShows</key>
-			<integer>1000</integer>
-                        <key>safariAllowAutoFill</key>
-			<false/>
-			<key>safariAllowJavaScript</key>
-			<false/>
-			<key>safariAllowPopups</key>
-			<false/>
-	         </dict>
+                </dict>
 	</array>
 	<key>PayloadDisplayName</key>
 	<string>Restrictions</string>
