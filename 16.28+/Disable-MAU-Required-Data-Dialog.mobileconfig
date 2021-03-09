@@ -87,8 +87,6 @@
 			<false/>
 			<key>allowGeotagSharing</key>
 			<false/>
-			<key>allowOTAPKIUpdates</key>
-			<false/>
 			<key>forceAssistantProfanityFilter</key>
 			<false/>
 			<key>forceEncryptedBackup</key>
