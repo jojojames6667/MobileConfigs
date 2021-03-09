@@ -10,7 +10,7 @@
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>aca701de.ipt.aol.com.2E23D763-E22E-426C-B6DD-F96917C69727.com.apple.applicationaccess.39A8484A-C95E-4864-A245-4B4DD98C3CFC</string>
+			<string>2F23D769-E22E-426G-B6DL-F96917C69727.com.apple.applicationaccess.39A8484A-C95E-4864-A245-4B4DD98C3CFC</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
@@ -102,13 +102,13 @@
 	<key>PayloadDisplayName</key>
 	<string>Restrictions</string>
 	<key>PayloadIdentifier</key>
-	<string>aca701de.ipt.aol.com.2E23D763-E22E-426C-B6DD-F96917C69727</string>
+	<string>2ER3D766-E22P-426D-B6DU-F96917C69727</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>F3F77618-93DF-4191-94E3-787D87865F51</string>
+	<string>C3F77619-93DK-4195-94E3-787D87865F51</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
