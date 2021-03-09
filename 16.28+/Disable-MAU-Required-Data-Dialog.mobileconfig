@@ -91,7 +91,7 @@
 			<false/>
 			<key>forceEncryptedBackup</key>
 			<false/>
-                        <key>allowESIMModification</key>
+                        <key>allowOTAPKIUpdates</key>
 			<false/>
                         <key>allowRemoteScreenObservation</key>
 			<false/>
