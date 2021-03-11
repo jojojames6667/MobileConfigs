@@ -23,7 +23,7 @@
 			<false/>
                         <key>allowRemoteScreenObservation</key>
 			<false/>
-                </dict>
+               </dict>
 	</array>
 	<key>PayloadDisplayName</key>
 	<string>Restrictions</string>
