@@ -19,7 +19,7 @@
 			<integer>1</integer>
 			<key>allowUntrustedTLSPrompt</key>
 			<false/>
-			<key>allowSiri</key>
+			<key>allowAssistant</key>
 			<false/>
                         <key>allowRemoteScreenObservation</key>
 			<false/>
