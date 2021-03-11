@@ -5,63 +5,36 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>PayloadContent</key>
-			<dict>
-				<key>com.microsoft.office</key>
-				<dict>
-					<key>Forced</key>
-					<array>
-						<dict>
-							<key>mcx_preference_settings</key>
-							<dict>
-								<key>DiagnosticDataTypePreference</key>
-								<string>BasicDiagnosticData</string>
-							</dict>
-						</dict>
-					</array>
-				</dict>
-				<key>com.microsoft.autoupdate2</key>
-				<dict>
-					<key>Forced</key>
-					<array>
-						<dict>
-							<key>mcx_preference_settings</key>
-							<dict>
-								<key>AcknowledgedDataCollectionPolicy</key>
-								<string>RequiredDataOnly</string>
-							</dict>
-						</dict>
-					</array>
-				</dict>
-			</dict>
-			<key>PayloadEnabled</key>
-			<true/>
+			<key>PayloadDescription</key>
+			<string>Configures restrictions</string>
+			<key>PayloadDisplayName</key>
+			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>MCXToProfile.67ad2621-b510-4e60-b171-7f7cf53516c9.alacarte.customsettings.c00e172d-4cb4-4e31-8fd4-c7fb866efc00</string>
+			<string>2F23D769-E22E-426G-B6DL-F96917C69727.com.apple.applicationaccess.39A8484A-C95E-4864-A245-4B4DD98C3CFC</string>
 			<key>PayloadType</key>
-			<string>com.apple.ManagedClient.preferences</string>
+			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>c01e572d-4cb4-4231-8fd5-c7fae76efc00</string>
+			<string>39A8484A-C95E-4864-A245-4B4DD98C3CFC</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-		</dict>
+			<key>allowUntrustedTLSPrompt</key>
+			<false/>
+			<key>allowAssistant</key>
+			<false/>
+                        <key>allowRemoteScreenObservation</key>
+			<false/>
+               </dict>
 	</array>
-	<key>PayloadDescription</key>
-	<string>Send Basic Telemetry</string>
 	<key>PayloadDisplayName</key>
-	<string>Send Basic Telemetry</string>
+	<string>Restrictions</string>
 	<key>PayloadIdentifier</key>
-	<string>com.microsoft.office.send.basic</string>
-	<key>PayloadOrganization</key>
-	<string></string>
+	<string>2ER3D766-E22P-426D-B6DU-F96917C69727</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
-	<key>PayloadScope</key>
-	<string>System</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>68be3621-b511-4220-b971-7f7cf54606c9</string>
+	<string>C3F77619-93DK-4195-94E3-787D87865F51</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
