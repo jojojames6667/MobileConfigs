@@ -19,6 +19,8 @@
 			<integer>1</integer>
 			<key>allowUntrustedTLSPrompt</key>
 			<false/>
+			<key>allowSiri</key>
+			<false/>
                         <key>allowRemoteScreenObservation</key>
 			<false/>
                 </dict>
